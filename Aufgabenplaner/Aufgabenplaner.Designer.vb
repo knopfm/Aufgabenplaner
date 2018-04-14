@@ -73,7 +73,7 @@ Partial Class Aufgabenplaner
         'NeuTSMI
         '
         Me.NeuTSMI.Name = "NeuTSMI"
-        Me.NeuTSMI.Size = New System.Drawing.Size(96, 22)
+        Me.NeuTSMI.Size = New System.Drawing.Size(152, 22)
         Me.NeuTSMI.Text = "&Neu"
         '
         'ServerTSM
@@ -86,7 +86,7 @@ Partial Class Aufgabenplaner
         'VerbindenTSMI
         '
         Me.VerbindenTSMI.Name = "VerbindenTSMI"
-        Me.VerbindenTSMI.Size = New System.Drawing.Size(127, 22)
+        Me.VerbindenTSMI.Size = New System.Drawing.Size(152, 22)
         Me.VerbindenTSMI.Text = "Verb&inden"
         '
         'HilfeTSM
@@ -99,19 +99,19 @@ Partial Class Aufgabenplaner
         'HilfeTSMI
         '
         Me.HilfeTSMI.Name = "HilfeTSMI"
-        Me.HilfeTSMI.Size = New System.Drawing.Size(145, 22)
+        Me.HilfeTSMI.Size = New System.Drawing.Size(152, 22)
         Me.HilfeTSMI.Text = "&Hilfe"
         '
         'EinstellungenTSMI
         '
         Me.EinstellungenTSMI.Name = "EinstellungenTSMI"
-        Me.EinstellungenTSMI.Size = New System.Drawing.Size(145, 22)
+        Me.EinstellungenTSMI.Size = New System.Drawing.Size(152, 22)
         Me.EinstellungenTSMI.Text = "&Einstellungen"
         '
         'InfoTSMI
         '
         Me.InfoTSMI.Name = "InfoTSMI"
-        Me.InfoTSMI.Size = New System.Drawing.Size(145, 22)
+        Me.InfoTSMI.Size = New System.Drawing.Size(152, 22)
         Me.InfoTSMI.Text = "&Info"
         '
         'StatusSS
@@ -300,6 +300,7 @@ Partial Class Aufgabenplaner
         Me.Calender1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Calender1.Location = New System.Drawing.Point(2, 2)
         Me.Calender1.Margin = New System.Windows.Forms.Padding(0)
+        Me.Calender1.Month = New Date(2018, 4, 1, 0, 0, 0, 0)
         Me.Calender1.Name = "Calender1"
         Me.Calender1.Size = New System.Drawing.Size(257, 253)
         Me.Calender1.TabIndex = 7

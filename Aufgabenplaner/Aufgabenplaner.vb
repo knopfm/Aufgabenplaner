@@ -1,5 +1,8 @@
-﻿Public Class Aufgabenplaner
-    Private lang As String = "DE"
+﻿Imports System.Globalization
+
+Public Class Aufgabenplaner
+    'Private lang As CultureInfo = New CultureInfo("en-US") 'CultureInfo.CurrentCulture
+    Private lang As CultureInfo = New CultureInfo("de-DE") 'CultureInfo.CurrentCulture
     Private languageManager As New Language
 
     Private Sub Aufgabenplaner_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -8,14 +11,15 @@
     End Sub
 
     Private Sub NeuTSMI_Click(sender As Object, e As EventArgs) Handles NeuTSMI.Click
-        MsgBox(DatePart(DateInterval.WeekOfYear, Now, FirstDayOfWeek.System, FirstWeekOfYear.System))
+        Calender1.Month = Now.AddMonths(1)
     End Sub
 
-    Private Sub setLanguageToGUI(lang As String)
+    Private Sub setLanguageToGUI(lang As CultureInfo)
         languageManager.setLanguage(lang)
         'languageManager.setFile()
         languageManager.loadLanguagePackage()
-        Calender1.setLanguageToGUI(languageManager)
+        Calender1.setLangMgr(languageManager)
+        Calender1.setLanguageToGUI()
     End Sub
 
 End Class

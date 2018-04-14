@@ -1,11 +1,12 @@
-﻿Imports System.IO
+﻿Imports System.Globalization
+Imports System.IO
 
 Public Class Language
     Private innerFile As File
-    Private innerLanguage As String
+    Private innerLanguage As CultureInfo
 
     Public Sub New()
-        innerLanguage = "DE"
+        innerLanguage = New CultureInfo("de-DE")
     End Sub
 
     Public Sub setFile(file As File)
@@ -16,11 +17,11 @@ Public Class Language
         Return innerFile
     End Function
 
-    Public Sub setLanguage(lang As String)
+    Public Sub setLanguage(lang As CultureInfo)
         innerLanguage = lang
     End Sub
 
-    Public Function getLanguage() As String
+    Public Function getLanguage() As CultureInfo
         Return innerLanguage
     End Function
 
@@ -37,7 +38,7 @@ Public Class Language
     End Function
 
     Public Function getTranslation(name As String) As String
-        If innerLanguage = "DE" Then
+        If innerLanguage.Name = "de-DE" Then
             Select Case name
                 Case "Day1L"
                     Return "Mo"
@@ -53,10 +54,12 @@ Public Class Language
                     Return "Sa"
                 Case "Day7L"
                     Return "So"
+                Case "TodayLL"
+                    Return "Heute"
                 Case Else
                     Return ""
             End Select
-        ElseIf innerLanguage = "EN" Then
+        ElseIf innerLanguage.name = "en-US" Then
             Select Case name
                 Case "Day1L"
                     Return "Mon"
@@ -72,6 +75,8 @@ Public Class Language
                     Return "Sat"
                 Case "Day7L"
                     Return "Sun"
+                Case "TodayLL"
+                    Return "Today"
                 Case Else
                     Return ""
             End Select

@@ -37,8 +37,6 @@ Partial Class Calender
         Me.NextMonthBT = New System.Windows.Forms.Button()
         Me.CalenderMonthLL = New System.Windows.Forms.LinkLabel()
         Me.CalenderTopTLP = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.TodayLL = New System.Windows.Forms.LinkLabel()
         Me.CalenderTLP = New System.Windows.Forms.TableLayoutPanel()
         Me.CalenderTopTLP.SuspendLayout()
@@ -51,10 +49,10 @@ Partial Class Calender
         Me.Week4L.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Week4L.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Week4L.ForeColor = System.Drawing.Color.White
-        Me.Week4L.Location = New System.Drawing.Point(1, 215)
+        Me.Week4L.Location = New System.Drawing.Point(1, 203)
         Me.Week4L.Margin = New System.Windows.Forms.Padding(0)
         Me.Week4L.Name = "Week4L"
-        Me.Week4L.Size = New System.Drawing.Size(22, 52)
+        Me.Week4L.Size = New System.Drawing.Size(22, 48)
         Me.Week4L.TabIndex = 6
         Me.Week4L.Text = "4"
         Me.Week4L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -65,10 +63,10 @@ Partial Class Calender
         Me.Week2L.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Week2L.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Week2L.ForeColor = System.Drawing.Color.White
-        Me.Week2L.Location = New System.Drawing.Point(1, 109)
+        Me.Week2L.Location = New System.Drawing.Point(1, 105)
         Me.Week2L.Margin = New System.Windows.Forms.Padding(0)
         Me.Week2L.Name = "Week2L"
-        Me.Week2L.Size = New System.Drawing.Size(22, 52)
+        Me.Week2L.Size = New System.Drawing.Size(22, 48)
         Me.Week2L.TabIndex = 3
         Me.Week2L.Text = "2"
         Me.Week2L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -79,10 +77,10 @@ Partial Class Calender
         Me.Week3L.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Week3L.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Week3L.ForeColor = System.Drawing.Color.White
-        Me.Week3L.Location = New System.Drawing.Point(1, 162)
+        Me.Week3L.Location = New System.Drawing.Point(1, 154)
         Me.Week3L.Margin = New System.Windows.Forms.Padding(0)
         Me.Week3L.Name = "Week3L"
-        Me.Week3L.Size = New System.Drawing.Size(22, 52)
+        Me.Week3L.Size = New System.Drawing.Size(22, 48)
         Me.Week3L.TabIndex = 4
         Me.Week3L.Text = "3"
         Me.Week3L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -96,7 +94,7 @@ Partial Class Calender
         Me.Week1L.Location = New System.Drawing.Point(1, 56)
         Me.Week1L.Margin = New System.Windows.Forms.Padding(0)
         Me.Week1L.Name = "Week1L"
-        Me.Week1L.Size = New System.Drawing.Size(22, 52)
+        Me.Week1L.Size = New System.Drawing.Size(22, 48)
         Me.Week1L.TabIndex = 5
         Me.Week1L.Text = "1"
         Me.Week1L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -109,7 +107,7 @@ Partial Class Calender
         Me.Day1L.Location = New System.Drawing.Point(24, 39)
         Me.Day1L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day1L.Name = "Day1L"
-        Me.Day1L.Size = New System.Drawing.Size(40, 16)
+        Me.Day1L.Size = New System.Drawing.Size(59, 16)
         Me.Day1L.TabIndex = 7
         Me.Day1L.Text = "Mo"
         Me.Day1L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -119,10 +117,10 @@ Partial Class Calender
         Me.Day2L.AutoSize = True
         Me.Day2L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day2L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day2L.Location = New System.Drawing.Point(65, 39)
+        Me.Day2L.Location = New System.Drawing.Point(84, 39)
         Me.Day2L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day2L.Name = "Day2L"
-        Me.Day2L.Size = New System.Drawing.Size(40, 16)
+        Me.Day2L.Size = New System.Drawing.Size(59, 16)
         Me.Day2L.TabIndex = 8
         Me.Day2L.Text = "Di"
         Me.Day2L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -132,10 +130,10 @@ Partial Class Calender
         Me.Day3L.AutoSize = True
         Me.Day3L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day3L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day3L.Location = New System.Drawing.Point(106, 39)
+        Me.Day3L.Location = New System.Drawing.Point(144, 39)
         Me.Day3L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day3L.Name = "Day3L"
-        Me.Day3L.Size = New System.Drawing.Size(40, 16)
+        Me.Day3L.Size = New System.Drawing.Size(59, 16)
         Me.Day3L.TabIndex = 9
         Me.Day3L.Text = "Mi"
         Me.Day3L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -145,10 +143,10 @@ Partial Class Calender
         Me.Day4L.AutoSize = True
         Me.Day4L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day4L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day4L.Location = New System.Drawing.Point(147, 39)
+        Me.Day4L.Location = New System.Drawing.Point(204, 39)
         Me.Day4L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day4L.Name = "Day4L"
-        Me.Day4L.Size = New System.Drawing.Size(40, 16)
+        Me.Day4L.Size = New System.Drawing.Size(59, 16)
         Me.Day4L.TabIndex = 10
         Me.Day4L.Text = "Do"
         Me.Day4L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -158,10 +156,10 @@ Partial Class Calender
         Me.Day5L.AutoSize = True
         Me.Day5L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day5L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day5L.Location = New System.Drawing.Point(188, 39)
+        Me.Day5L.Location = New System.Drawing.Point(264, 39)
         Me.Day5L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day5L.Name = "Day5L"
-        Me.Day5L.Size = New System.Drawing.Size(40, 16)
+        Me.Day5L.Size = New System.Drawing.Size(59, 16)
         Me.Day5L.TabIndex = 11
         Me.Day5L.Text = "Fr"
         Me.Day5L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -171,10 +169,10 @@ Partial Class Calender
         Me.Day6L.AutoSize = True
         Me.Day6L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day6L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day6L.Location = New System.Drawing.Point(229, 39)
+        Me.Day6L.Location = New System.Drawing.Point(324, 39)
         Me.Day6L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day6L.Name = "Day6L"
-        Me.Day6L.Size = New System.Drawing.Size(40, 16)
+        Me.Day6L.Size = New System.Drawing.Size(59, 16)
         Me.Day6L.TabIndex = 12
         Me.Day6L.Text = "Sa"
         Me.Day6L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -184,10 +182,10 @@ Partial Class Calender
         Me.Day7L.AutoSize = True
         Me.Day7L.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Day7L.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Day7L.Location = New System.Drawing.Point(270, 39)
+        Me.Day7L.Location = New System.Drawing.Point(384, 39)
         Me.Day7L.Margin = New System.Windows.Forms.Padding(0)
         Me.Day7L.Name = "Day7L"
-        Me.Day7L.Size = New System.Drawing.Size(47, 16)
+        Me.Day7L.Size = New System.Drawing.Size(66, 16)
         Me.Day7L.TabIndex = 13
         Me.Day7L.Text = "So"
         Me.Day7L.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -209,7 +207,7 @@ Partial Class Calender
         Me.NextMonthBT.Dock = System.Windows.Forms.DockStyle.Fill
         Me.NextMonthBT.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.NextMonthBT.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NextMonthBT.Location = New System.Drawing.Point(282, 3)
+        Me.NextMonthBT.Location = New System.Drawing.Point(415, 3)
         Me.NextMonthBT.Name = "NextMonthBT"
         Me.NextMonthBT.Size = New System.Drawing.Size(31, 31)
         Me.NextMonthBT.TabIndex = 1
@@ -225,7 +223,7 @@ Partial Class Calender
         Me.CalenderMonthLL.Location = New System.Drawing.Point(37, 0)
         Me.CalenderMonthLL.Margin = New System.Windows.Forms.Padding(0)
         Me.CalenderMonthLL.Name = "CalenderMonthLL"
-        Me.CalenderMonthLL.Size = New System.Drawing.Size(242, 37)
+        Me.CalenderMonthLL.Size = New System.Drawing.Size(375, 37)
         Me.CalenderMonthLL.TabIndex = 2
         Me.CalenderMonthLL.TabStop = True
         Me.CalenderMonthLL.Text = "Januar 2000"
@@ -247,26 +245,8 @@ Partial Class Calender
         Me.CalenderTopTLP.Name = "CalenderTopTLP"
         Me.CalenderTopTLP.RowCount = 1
         Me.CalenderTopTLP.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.CalenderTopTLP.Size = New System.Drawing.Size(316, 37)
+        Me.CalenderTopTLP.Size = New System.Drawing.Size(449, 37)
         Me.CalenderTopTLP.TabIndex = 14
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(273, 56)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(40, 26)
-        Me.Label12.TabIndex = 0
-        Me.Label12.Text = "Kalender"
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(273, 112)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(28, 23)
-        Me.Button3.TabIndex = 1
-        Me.Button3.Text = "AddAufgabe"
-        Me.Button3.UseVisualStyleBackColor = True
         '
         'TodayLL
         '
@@ -274,10 +254,10 @@ Partial Class Calender
         Me.CalenderTLP.SetColumnSpan(Me.TodayLL, 8)
         Me.TodayLL.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TodayLL.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
-        Me.TodayLL.Location = New System.Drawing.Point(1, 268)
+        Me.TodayLL.Location = New System.Drawing.Point(1, 252)
         Me.TodayLL.Margin = New System.Windows.Forms.Padding(0)
         Me.TodayLL.Name = "TodayLL"
-        Me.TodayLL.Size = New System.Drawing.Size(316, 22)
+        Me.TodayLL.Size = New System.Drawing.Size(449, 21)
         Me.TodayLL.TabIndex = 15
         Me.TodayLL.TabStop = True
         Me.TodayLL.Text = "Heute 01.04.2018"
@@ -309,8 +289,6 @@ Partial Class Calender
         Me.CalenderTLP.Controls.Add(Me.Day6L, 6, 1)
         Me.CalenderTLP.Controls.Add(Me.Day7L, 7, 1)
         Me.CalenderTLP.Controls.Add(Me.CalenderTopTLP, 0, 0)
-        Me.CalenderTLP.Controls.Add(Me.Label12, 7, 2)
-        Me.CalenderTLP.Controls.Add(Me.Button3, 7, 3)
         Me.CalenderTLP.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CalenderTLP.Location = New System.Drawing.Point(0, 0)
         Me.CalenderTLP.Margin = New System.Windows.Forms.Padding(0)
@@ -323,7 +301,7 @@ Partial Class Calender
         Me.CalenderTLP.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.CalenderTLP.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.CalenderTLP.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.CalenderTLP.Size = New System.Drawing.Size(320, 293)
+        Me.CalenderTLP.Size = New System.Drawing.Size(453, 276)
         Me.CalenderTLP.TabIndex = 3
         '
         'Calender
@@ -333,7 +311,7 @@ Partial Class Calender
         Me.Controls.Add(Me.CalenderTLP)
         Me.Margin = New System.Windows.Forms.Padding(0)
         Me.Name = "Calender"
-        Me.Size = New System.Drawing.Size(320, 293)
+        Me.Size = New System.Drawing.Size(453, 276)
         Me.CalenderTopTLP.ResumeLayout(False)
         Me.CalenderTopTLP.PerformLayout()
         Me.CalenderTLP.ResumeLayout(False)
@@ -358,7 +336,5 @@ Partial Class Calender
     Friend WithEvents CalenderMonthLL As LinkLabel
     Friend WithEvents CalenderTopTLP As TableLayoutPanel
     Friend WithEvents CalenderTLP As TableLayoutPanel
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents TodayLL As LinkLabel
 End Class
