@@ -70,6 +70,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calender.Designer.vb">
+      <DependentUpon>Calender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calender.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalenderEntry.Designer.vb">
+      <DependentUpon>CalenderEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalenderEntry.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Language.vb" />
     <Compile Include="TaskListMonth.vb" />
     <Compile Include="Aufgabenplaner.vb">
@@ -101,6 +113,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Aufgabenplaner.resx">
       <DependentUpon>Aufgabenplaner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calender.resx">
+      <DependentUpon>Calender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalenderEntry.resx">
+      <DependentUpon>CalenderEntry.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

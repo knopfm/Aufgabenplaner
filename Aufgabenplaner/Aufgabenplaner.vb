@@ -15,13 +15,7 @@
         languageManager.setLanguage(lang)
         'languageManager.setFile()
         languageManager.loadLanguagePackage()
-        Day1L.Text = languageManager.getTranslation("Day1L")
-        Day2L.Text = languageManager.getTranslation("Day2L")
-        Day3L.Text = languageManager.getTranslation("Day3L")
-        Day4L.Text = languageManager.getTranslation("Day4L")
-        Day5L.Text = languageManager.getTranslation("Day5L")
-        Day6L.Text = languageManager.getTranslation("Day6L")
-        Day7L.Text = languageManager.getTranslation("Day7L")
+        Calender1.setLanguageToGUI(languageManager)
     End Sub
 
 End Class

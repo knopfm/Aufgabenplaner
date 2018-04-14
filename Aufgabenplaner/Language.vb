@@ -32,7 +32,7 @@ Public Class Language
 
     End Sub
 
-    Public Function getLanguages() As String()
+    Public Function getLanguageFiles() As String()
 
     End Function
 
@@ -78,4 +78,8 @@ Public Class Language
         End If
         Return ""
     End Function
+
+    Public Sub setTransaltion(name As String, text As String)
+
+    End Sub
 End Class
